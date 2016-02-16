@@ -6,5 +6,10 @@
   "MembersDB": {
     "name": "MembersDB",
     "connector": "mongodb"
+  },
+  "mongodb": {
+   "defaultForType": "mongodb",
+   "connector": "loopback-connector-mongodb",
+   "url": "mongodb://adamino:AdamWinnie2014@ds059375.mongolab.com:59375/turnus"
   }
 }
