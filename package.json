@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "server/server.js",
   "scripts": {
-    "start": "node .",
+    "start": "slc run",
     "pretest": "jshint .",
     "posttest": "nsp check"
   },
@@ -22,6 +22,11 @@
     "jshint": "^2.5.6",
     "loopback-connector-mongodb": "^1.13.3",
     "nsp": "^2.1.0"
+  },
+  ,
+  "engines": {
+    "node": "4.2.2",
+    "npm": "2.14.7"
   },
   "repository": {
     "type": "",
