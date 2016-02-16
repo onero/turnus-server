@@ -1,0 +1,77 @@
+{
+  "name": "Member",
+  "plural": "Members",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "firstname": {
+      "type": "string",
+      "required": true
+    },
+    "lastname": {
+      "type": "string",
+      "required": true
+    },
+    "position": {
+      "type": "string",
+      "required": true
+    },
+    "available1": {
+      "type": "boolean",
+      "required": false,
+      "default": true
+    },
+    "available2": {
+      "type": "boolean",
+      "required": false,
+      "default": true
+    },
+    "available3": {
+      "type": "boolean",
+      "required": false,
+      "default": true
+    },
+    "available4": {
+      "type": "boolean",
+      "required": false,
+      "default": true
+    },
+    "available5": {
+      "type": "boolean",
+      "required": false,
+      "default": true
+    },
+    "chosen1": {
+      "type": "boolean",
+      "required": false,
+      "default": false
+    },
+    "chosen2": {
+      "type": "boolean",
+      "required": false,
+      "default": false
+    },
+    "chosen3": {
+      "type": "boolean",
+      "required": false,
+      "default": false
+    },
+    "chosen4": {
+      "type": "boolean",
+      "required": false,
+      "default": false
+    },
+    "chosen5": {
+      "type": "boolean",
+      "required": false,
+      "default": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
