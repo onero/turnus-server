@@ -4,10 +4,7 @@
     "connector": "memory"
   },
   "MembersDB": {
-    "name": "MembersDB",
-    "connector": "mongodb"
-  },
-  "mongodb": {
+   "name": "MembersDB",
    "defaultForType": "mongodb",
    "connector": "loopback-connector-mongodb",
    "url": "mongodb://adamino:AdamWinnie2014@ds059375.mongolab.com:59375/turnus"
